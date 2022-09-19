@@ -1,0 +1,74 @@
+{
+  "version": "1.3.0",
+  "name": "owasp-nodejs-goat",
+  "dependencies": {
+    "bcrypt-nodejs": {
+      "version": "0.0.3",
+      "resolved": "https://registry.npmjs.org/bcrypt-nodejs/-/bcrypt-nodejs-0.0.3.tgz"
+    },
+    "body-parser": {
+      "version": "1.18.3",
+      "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.18.3.tgz"
+    },
+    "consolidate": {
+      "version": "0.14.5",
+      "resolved": "https://registry.npmjs.org/consolidate/-/consolidate-0.14.5.tgz"
+    },
+    "csurf": {
+      "version": "1.9.0",
+      "resolved": "https://registry.npmjs.org/csurf/-/csurf-1.9.0.tgz"
+    },
+    "dont-sniff-mimetype": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/dont-sniff-mimetype/-/dont-sniff-mimetype-1.0.0.tgz"
+    },
+    "express-session": {
+      "version": "1.15.6",
+      "resolved": "https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz"
+    },
+    "express": {
+      "version": "4.16.4",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.16.4.tgz"
+    },
+    "forever": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/forever/-/forever-2.0.0.tgz"
+    },
+    "grunt-nodemon": {
+      "version": "0.4.2",
+      "resolved": "https://registry.npmjs.org/grunt-nodemon/-/grunt-nodemon-0.4.2.tgz"
+    },
+    "helmet": {
+      "version": "2.3.0",
+      "resolved": "https://registry.npmjs.org/helmet/-/helmet-2.3.0.tgz"
+    },
+    "marked": {
+      "version": "0.3.9",
+      "resolved": "https://registry.npmjs.org/marked/-/marked-0.3.9.tgz"
+    },
+    "mongodb": {
+      "version": "2.1.18",
+      "resolved": "https://registry.npmjs.org/mongodb/-/mongodb-2.1.18.tgz"
+    },
+    "needle": {
+      "version": "2.2.4",
+      "resolved": "https://registry.npmjs.org/needle/-/needle-2.2.4.tgz"
+    },
+    "node-esapi": {
+      "version": "0.0.1",
+      "resolved": "https://registry.npmjs.org/node-esapi/-/node-esapi-0.0.1.tgz"
+    },
+    "serve-favicon": {
+      "version": "2.5.0",
+      "resolved": "https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.5.0.tgz"
+    },
+    "swig": {
+      "version": "1.4.2",
+      "resolved": "https://registry.npmjs.org/swig/-/swig-1.4.2.tgz"
+    },
+    "underscore": {
+      "version": "1.9.1",
+      "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz"
+    }
+  }
+}
