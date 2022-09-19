@@ -44,25 +44,25 @@ function ProfileDAO(db) {
         // Create user document
         const user = {};
         if (firstName) {
-            user.firstName = firstName;
+            user.firstName = JSON.stringify(firstName.replace('<', '&lt;').replace('>', '&gt;'));
         }
         if (lastName) {
-            user.lastName = lastName;
+            user.lastName = JSON.stringify(lastName)
         }
         if (address) {
-            user.address = address;
+            user.address = JSON.stringify(address);
         }
         if (bankAcc) {
-            user.bankAcc = bankAcc;
+            user.bankAcc = JSON.stringify(bankAcc);
         }
         if (bankRouting) {
-            user.bankRouting = bankRouting;
+            user.bankRouting = JSON.stringify(bankRouting);
         }
         if (ssn) {
-            user.ssn = ssn;
+            user.ssn = JSON.stringify(ssn);
         }
         if (dob) {
-            user.dob = dob;
+            user.dob = JSON.stringify(dob);
         }
         /*
         // Fix for A7 - Sensitive Data Exposure
